@@ -1,0 +1,3 @@
+**Figure 2. Rich Club Null Envelope: Network Metrics Distributions.**
+
+Distribution of network metrics from 100 simulations of two null models (calibrated null, grey; insider shuffle, blue) compared to empirical values (red dashed lines). Panels show (a) nodes, (b) edges, (c) connected components, and (d) ultra-strong ties. Empirical values (nodes: 4,650; edges: 7,007; components: 1,313; ultra-strong ties: 3,472) exceed both null distributions with z-scores ranging from 36.1 to 2,199.1 (all p < 0.001), indicating network structure beyond random coincidence.
