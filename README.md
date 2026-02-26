@@ -128,7 +128,16 @@ All analysis results are saved to `network_results/`, including:
 
 ## Citation
 
-If this code or data is used, please cite the associated publication.
+If this code or data is used, please cite the associated publication:
+
+```bibtex
+@article{jaeger2025needles,
+  title={Needles in a haystack: using forensic network science to uncover insider trading},
+  author={Jaeger, Gian and Yeung, Wang Ngai and Lambiotte, Renaud},
+  journal={arXiv preprint arXiv:2512.18918},
+  year={2025}
+}
+```
 
 ## Important Notes
 
