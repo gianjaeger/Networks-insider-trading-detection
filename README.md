@@ -6,24 +6,27 @@ This repository contains code and data for analyzing insider trading networks us
 
 ```
 .
-├── All trades (use for replication)/
-│   └── all_trades.parquet                    # Consolidated trade data
 ├── Data/
-│   ├── 2014q1_form345/ ... 2024q4_form345/ # Raw SEC Form 3/4/5 filings (quarterly)
-│   └── Preprocessed Data (trades by year)/  # Preprocessed trade data by year
-├── Data-cleaning.ipynb                       # Jupyter notebook for data preprocessing
-├── Network_analysis_and_visualizations.ipynb # Main analysis and visualization notebook
+│   └── Trades by day (use for replication)/
+│       └── trades_by_day.csv                   # Aggregated trade data for replication
+├── Data-cleaning.ipynb                         # Jupyter notebook for data preprocessing
+├── Network_analysis_and_visualizations.ipynb   # Main analysis and visualization notebook
 ├── network_cpp/
-│   ├── assignment_based_distinct_weeks.cpp   # Assignment-based edge detection
-│   └── match_making_distinct_weeks.cpp       # Match-making edge detection
+│   ├── assignment_based_distinct_weeks.cpp     # Assignment-based edge detection
+│   └── match_making_distinct_weeks.cpp         # Match-making edge detection
 ├── null_models/
-│   ├── calibrated_null_model.py              # Calibrated null model generator
-│   └── insider_shuffle_null.py               # Insider shuffle null model generator
-├── network_results/                          # Output directory for analysis results
-└── visualizations/
-    ├── eigenvector_distribution.py           # Visualization scripts
-    ├── figure1_forensic_fingerprint.py
-    └── figure2_rich_club_null_envelope_v2.py
+│   ├── calibrated_null_model.py                # Calibrated null model generator
+│   └── insider_shuffle_null.py                 # Insider shuffle null model generator
+├── network_results/
+│   ├── assignment_based_edges.csv              # Edge list from assignment-based detection
+│   └── match_making_edges.csv                  # Edge list from match-making detection
+├── visualizations/
+│   ├── eigenvector_distribution.py             # Eigenvector centrality distribution
+│   ├── figure1_forensic_fingerprint.py         # Network visualization of trading patterns
+│   ├── figure2_caption.txt                     # Caption for figure 2
+│   ├── figure2_rich_club_null_envelope.py      # Rich club analysis with null envelopes
+│   └── figure2_rich_club_null_envelope_v2.py   # Rich club analysis (updated version)
+└── LICENSE
 ```
 
 ## Data Sources
